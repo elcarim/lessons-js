@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Aim Training | Проект 5</title>
+  </head>
+  <body>
+    <div class="screen">
+      <h1>Запомни порядок</h1>
+      <a href="#" class="start">Начать игру</a>
+    </div>
+
+    <div class="screen">
+      <h1>Сартовый уровень</h1>
+      <ul class="level-list">
+        <li>
+          <button class="level-btn" data-level=1>
+            1
+          </button>
+        </li>
+        <li>
+          <button class="level-btn" data-level=3>
+            3
+          </button>
+        </li>
+        <li>
+          <button class="level-btn" data-level=8>
+            8
+          </button>
+        </li>
+      </ul>
+    </div>
+
+    <div class="screen">
+      <h3></h3>
+      <h3>
+        Уровень: <span id="showLevel" class="mr2">0</span> 
+        Очков: <span id="showScore" class="mr2">0</span> 
+        Время: <span id="showTime" class="mr2">60</span> 
+      </h3>
+      <div class="board" id="board">
+
+      </div>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
